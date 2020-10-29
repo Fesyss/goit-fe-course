@@ -1,0 +1,59 @@
+
+
+.main{
+    font-family: 'Playfair Display', serif; 
+    color: rgb(98, 98, 98); 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main_section{
+    text-align: left;
+    width: 420px;
+    display: inline-block;
+    margin-bottom: 130px; 
+    margin-right: 60px;
+}
+
+.main_section:nth-child(2n+2){
+    margin-right: 0;
+}
+
+.img_american_dream{
+    width: 423px;
+    height: 281px;
+    margin-bottom: 32px;
+    
+}
+
+.img_wrapper{
+     overflow: hidden; 
+     height: 281px;
+}
+
+.girl{
+    width: 423px;
+    height: auto;
+    /* transform: translateY(-40%); */
+   
+}
+
+.Sub_title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: rgb(180, 173, 158);
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+    
+}
+ 
+.Title{
+    font-size: 30px;
+    font-weight: 400;
+      
+}
+
+.p_lorem_left{
+    font-weight: 400; 
+}

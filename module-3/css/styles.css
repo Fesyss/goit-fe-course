@@ -1,0 +1,15 @@
+@import "./reset.css";
+
+@import url("https://0fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+@import "./header.css";
+
+@import "./main.css";
+
+
+.body{
+    width: 1200px;
+    height: 2079px;
+}

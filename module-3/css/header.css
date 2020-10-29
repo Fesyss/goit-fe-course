@@ -3,12 +3,11 @@
     font-family: "Playfair Display", serif;
     margin-bottom: 103px;
   }
+
   .navigation {
     text-align: center;
   }
-  
-  
-  
+
   .List {
     display: inline;
     margin-right: 95px;
@@ -24,6 +23,7 @@
     font-size: 14px;
     color: #626262;
   }
+  
   .Lifestyle:hover {
     color: rgb(3, 169, 244);
   }

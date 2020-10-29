@@ -22,8 +22,7 @@
 .img_american_dream{
     width: 423px;
     height: 281px;
-    margin-bottom: 32px;
-    
+    margin-bottom: 32px; 
 }
 
 .img_wrapper{
@@ -34,8 +33,7 @@
 .girl{
     width: 423px;
     height: auto;
-    /* transform: translateY(-40%); */
-   
+     transform: translateY(-40%); 
 }
 
 .Sub_title {
@@ -44,14 +42,23 @@
     color: rgb(180, 173, 158);
     font-weight: 300;
     text-transform: uppercase;
+    margin-bottom: 28px;  
+}
+
+.Sub_title_girl{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: rgb(180, 173, 158);
+    font-weight: 300;
+    text-transform: uppercase;
     margin-bottom: 28px;
-    
+    margin-top: 32px;
 }
  
 .Title{
     font-size: 30px;
     font-weight: 400;
-      
+    margin-bottom: 34px;
 }
 
 .p_lorem_left{

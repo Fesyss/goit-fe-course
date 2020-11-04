@@ -2,6 +2,7 @@
     margin-top: 77px;
     font-family: "Playfair Display", serif;
     margin-bottom: 103px;
+    width: 1200px;
   }
 
   .navigation {
@@ -22,6 +23,7 @@
     font-weight: 500;
     font-size: 14px;
     color: #626262;
+    text-decoration: none;
   }
   
   .Lifestyle:hover {

@@ -10,8 +10,6 @@
 
 @import "./footer.css";
 
+@import "./body.css"
 
-.body{
-    width: 1200px;
-    height: 2079px;
-}
+

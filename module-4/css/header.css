@@ -1,35 +1,60 @@
-.header {
-
+.header{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       
+       width: 1200px;
+       margin: 28px auto 105px auto;
 }
-.logo {
-  text-transform: uppercase;
-  color: #95E1D3;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 30;
-}
-
-.mogo_text {
-  text-transform: uppercase;
-  color: #95E1D3;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 30;
-}
-.menu  {
-
-}
-.menu_list {
-
+.logo{
+    
+   
+    
 }
 
 
 
+.logo_link{
+    font-size: 30;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #95E1D3;
 
+    width: 86px;
+    text-decoration: none;
+    
+}
 
+.menu{
+  width: 490px;
+}
 
+.menu_list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.menu_list_item{
+   
+}
 
+.menu_item_link{
+   text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
 
+   font-size: 14px;
+   color: #9CE3D6;
+   text-decoration: none;
+   
+}
 
+.menu_item_link:hover{
+    color: #F38181;
+    cursor: pointer;
+
+    border-bottom: 2px solid;
+    padding-bottom: 12px;
+}
 

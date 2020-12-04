@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+
+.header {
+  max-width: 940px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45px auto 125px;
+  flex-wrap: wrap;
+  padding:0 10px;
+}
+
+
+.menu {
+  width: 480px;
+  margin: 0 10px;
+}
+
+
+@media (max-width: 600px) {
+
+
+  .logo {
+    margin-bottom: 30px;
+    text-align: left;
+    text-decoration: none;
+  }
+
+
+  .menu {
+    margin: 0 auto;
+list-style:none ;
+  }
+
+
+  .header{
+    display: block;
+  }
+}
+
+
+
+.logo__link {
+  font-size: 26px;
+  color: #fed136;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 500;
+}
+
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
+.menu__link:hover {
+  color: #fed136;
+} 

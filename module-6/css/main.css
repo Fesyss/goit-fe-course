@@ -1,28 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+.section_service {
+  padding: 0 5px;
+}
+.section_service_title {
+  font-size: 40px;
+  color: #222222;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+}
+
+
+.section_service_sub_title {
+  font-size: 16px;
+  color: rgb(119, 119, 119);
+  font-family: "Roboto Slab", serif;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 80px;
+
+}
+
+.card_wrapper {
+  max-width: 990px;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+  margin: 0 auto 65px;
+
+}
+
+.card {
+  width: 290px;
+
+  margin: 0 10px;
+
+  margin-bottom: 50px;
+}
+.icon_wrapper {
+
+
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: 3px solid #fed136;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto 25px;
+
+
+
+}
+
+.card__icon {
+
+}
+
+
+.card_headline {
+  font-size: 18px;
+  color: #222222;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+
+.card_text {
+  font-size: 14px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  color: #777777;
+} 
+
 .section_form {
+
     background: url("../images/Map1X.png") bottom right no-repeat;
+
     background-color: #222;
     padding-top: 80px;
     padding-bottom: 115px;
 
   }
   
-  .section_form__headline {
+  .section_form_headline {
+
     font-size: 40px;
     font-family: "Roboto Slab", serif;
     font-weight: 700;
     margin: 0 auto 20px;
     color: #fff;
     text-transform: uppercase;
+
   }
-  .section_form__text {
+
+  .section_form_text {
+
     font-size: 16px;
     color: rgb(119, 119, 119);
     font-family: "Roboto Slab", serif;
     font-style: italic;
     font-weight: 400;
     margin-bottom: 75px;
+
   }
+
   .form {
+
     height: 310px;
     flex-wrap: wrap;
    width: 940px;
@@ -30,15 +120,22 @@
     display: flex;
     justify-content: space-around;
 
+
   }
+
   .input_wrapper {
+
     display: inline-block;
     width: 455px;
     height: 210px;
+
   }
+
   .input {
+
     width: 455px;
     height: 50px;
+
     margin-bottom: 30px;
     padding: 20px;
     background-color: #fff;
@@ -46,24 +143,31 @@
     text-align: left;
     border: none;
     border-radius: 4px;
+
   }
+
   .textarea {
+
     width: 455px;
     height: 210px;
     padding: 20px;
     background-color: #fff;
+
     color: black;
     border-radius: 4px;
     font-size: 14px;
     text-align: left;
     resize: none;
+
   }
+  
   .textarea,
 
   .input:focus {
     border: none;
     outline: none;
   }
+
   .textarea::placeholder {
     text-align: left;
     font-size: 14px;
@@ -72,6 +176,7 @@
     font-weight: 700;
     text-transform: uppercase;
   }
+
   .input::placeholder {
     text-align: left;
     font-size: 14px;
@@ -80,9 +185,11 @@
     font-weight: 700;
     text-transform: uppercase;
   }
-  .form__button {
+
+  .form_button {
     margin: 0 auto;
     padding: 25px 47px;
+
     background-color: #fed136;
     font-size: 18px;
     font-weight: 700;
@@ -94,11 +201,18 @@
     width: 241px;
     height: 67px;
 }
+
   @media (max-width: 950px) {
+
+
+
     .textarea {
+
       display: block;
       margin: 30px auto;
+
     }
+    
     .form {
       display: block;
       height: 500px;

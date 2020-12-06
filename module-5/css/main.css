@@ -1,0 +1,246 @@
+.body {
+}
+
+.main {
+  max-width: 1920px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main_section {
+  padding-top: 105px;
+}
+
+.main_section_text {
+  font-family: "Kaushan Script", cursive;
+  height: 24px;
+  margin: 23px;
+  font-weight: 400;
+}
+
+.main_section_text_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 23px;
+}
+
+.main_section_text_title::after {
+  content: "";
+  width: 61px;
+  height: 4px;
+  background-color: #f38181;
+  display: block;
+  margin: 41px auto 0 auto;
+}
+
+.container {
+  display: flex;
+
+  max-width: 1200px;
+  margin: 0 auto;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  text-align: left !important;
+
+  margin-top: 111px;
+}
+
+.item {
+  display: flex;
+
+  width: 33.3%;
+  padding-right: 20px;
+
+  align-items: flex-start;
+
+  margin-bottom: 100px;
+}
+
+.div_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.div_paragraph {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #999999;
+  font-weight: normal;
+}
+
+.div_wrapper {
+  margin-left: 28px;
+  margin-right: 15px;
+}
+
+.team {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main_section_text {
+}
+
+.main_section_text_title {
+  font-style: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+}
+
+.main_section_sub_title {
+  font-style: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #999999;
+}
+
+.Team_p {
+  font-family: "Roboto", sans-serif;
+  margin: 91px auto 0;
+  font-size: 15px;
+}
+
+.img_card_photo {
+
+}
+
+.Team_card_1 {
+  margin-top: 31px;
+  margin-bottom: 15px;
+  color: #333333;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main_section_sub_title {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #999999;
+}
+
+.div_wrapper_card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+ 
+}
+
+.div_wrapper_gradient{
+  width: 380px;
+  height: 470px;
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.div_wrapper_gradient_2{
+  width: 383px;
+  height: 474px;
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.div_card_team {
+ position: relative;
+}
+
+.div_card_team:hover > .img_card_photo{
+  transform: translate(-10px, -10px);
+  transition: 200ms linear;
+}
+
+.div_card_team:hover > .social_wrapper{
+   display: block;
+}
+
+.div_card_team:hover >.div_wrapper_gradient{
+ transform: translate(-10px, -10px);
+  z-index: 2;
+ transition: 200ms linear;
+ background: linear-gradient(rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
+ -webkit-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+ -moz-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+ box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+}
+
+.div_card_team:hover>.div_wrapper_gradient_2{
+  background: linear-gradient(rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
+  transform: translate(-10px, -10px);
+  z-index: 2;
+  transition: 200ms linear;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+  box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+ 
+}
+
+/* .div_card_team::before {
+  content: "";
+  display: block;
+  height: 760px;
+  width: 940px;
+  #95e1d3
+  position: absolute;
+  background: linear-gradient(
+    rgba(243, 129, 129, 0.9),
+    rgba(255, 219, 89, 0.8));
+  top: 250%;
+  left: 250%;
+} */
+
+.img_card_photo_2{
+
+}
+
+.social_wrapper{
+ font-style: 0;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50% );
+ width: 230px;
+ z-index: 3;
+ font-size: 0;
+ display: none;
+}
+
+.social_link{
+  margin-right: 1px;
+  width: 56px;
+  height: 56px;
+  background-color: #fce38a;
+  display: inline-block;
+  position: relative;
+  
+}
+
+.social_wrapper:hover{
+color: #95e1d3;
+transition: 400ms linear;
+}
+
+.social_link:hover{
+  background-color:  #95e1d3;
+}
+
+.social_link:last-child{
+  margin-right: 0 ;
+}
+
+.icon_img{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}

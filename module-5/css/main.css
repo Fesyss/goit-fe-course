@@ -48,16 +48,29 @@
   margin-top: 111px;
 }
 
-.item {
-  display: flex;
+ .item {
+   display: flex;
 
   width: 33.3%;
   padding-right: 20px;
 
-  align-items: flex-start;
+  align-items: flex-start; 
 
-  margin-bottom: 100px;
-}
+  position: relative;
+  margin-bottom: 100px; 
+} 
+
+.item_2 {
+  display: flex;
+
+ width: 33.3%;
+ padding-right: 20px;
+
+ align-items: flex-start; 
+
+ position: relative;
+ margin-bottom: 100px; 
+} 
 
 .div_title {
   font-family: "Montserrat", sans-serif;
@@ -76,8 +89,13 @@
 }
 
 .div_wrapper {
-  margin-left: 28px;
+  
+  margin-left: 61px;
   margin-right: 15px;
+}
+
+.div_wrapper_2 {
+  
 }
 
 .team {
@@ -185,19 +203,89 @@
  
 }
 
-/* .div_card_team::before {
+.alarm::before {
   content: "";
-  display: block;
-  height: 760px;
-  width: 940px;
-  #95e1d3
   position: absolute;
-  background: linear-gradient(
-    rgba(243, 129, 129, 0.9),
-    rgba(255, 219, 89, 0.8));
-  top: 250%;
-  left: 250%;
-} */
+  top: 4px;
+  left: 0;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background-repeat: no-repeat;
+  background-image: url("../images/clock.png");
+}
+
+.computer::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background-repeat: no-repeat;
+  background-image: url("../images/computer.png");
+}
+
+.book::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background-repeat: no-repeat;
+  background-image: url("../images/book.png");
+}
+
+.house::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background-repeat: no-repeat;
+  background-image: url("../images/house.png");
+}
+
+.line::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background-repeat: no-repeat;
+  background-image: url("../images/line_graphics.png");
+}
+
+.clock::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background-repeat: no-repeat;
+  background-image: url("../images/clock.png");
+}
+
+.contour::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  display: block;
+  height: 32px;
+  width: 32px;
+  background-repeat: no-repeat;
+  background-image: url("../images/contour.png");
+}
 
 .img_card_photo_2{
 

@@ -1,14 +1,15 @@
-.header{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       
-       width: 1200px;
-       margin:  auto 105px auto;
-       position: fixed;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
 
-.menu_wrapper{
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  height: 75px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+.menu_wrapper {
   background-color: #fff;
   z-index: 6;
   margin: auto;
@@ -17,57 +18,75 @@
   justify-content: space-between;
   align-items: center;
   width: 1200px;
+  text-decoration: none;
 }
 
-.logo{
-    
-   
-    
+.logo_link {
+  font-size: 30px;
+  color: #95e1d3;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 
-
-
-.logo_link{
-    font-size: 30;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: #95E1D3;
-
-    width: 86px;
-    text-decoration: none;
-    
-}
-
-.menu{
+.menu {
   width: 490px;
 }
 
-.menu_list{
+.menu_list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.menu_list_item{
-   
+.menu_list_item {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: #95E1D3;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.menu_item_link{
-   text-transform: uppercase;
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 400;
-
-   font-size: 14px;
-   color: #9CE3D6;
-   text-decoration: none;
-   
+.menu_item_link {
+  position: relative;
+  cursor: pointer;
+  z-index: 4;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #9ce3d6;
+  text-transform: uppercase;
+  border-bottom: 3px solid transparent;
+}
+.menu_item_link:hover {
+  transition: 400ms linear;
+  color: #f38181;
+  border-bottom: 3px solid #f38181;
+}
+.menu_item_link_title {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  left: 4000px;
 }
 
-.menu_item_link:hover{
-    color: #F38181;
-    cursor: pointer;
+.menu_list_link_sub_title {
+  display: block;
+  margin-top: 7px;
+  z-index: 3;
+  font-size: 12px;
+  color: #9ce3d6;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+}
 
-    border-bottom: 2px solid;
-    padding-bottom: 12px;
+.menu_list_item:hover > .menu_item_link_title {
+  color: #9ce3d6;
+  left: 0;
+}
+.menu_item_link_title_text:hover {
+  transition: 200ms linear;
+  color: #f38181;
+  border-bottom: 2px solid #f38181;
 }
 
